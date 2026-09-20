@@ -1,0 +1,77 @@
+[
+  {
+    "question": "Học phí các chương trình chuẩn của Đại học Bách khoa Hà Nội cho khóa K67 (năm học 2022-2023) là bao nhiêu?",
+    "expected_answer": "Các chương trình chuẩn có học phí từ 24 đến 30 triệu đồng/năm học, tùy theo từng ngành.",
+    "expected_context": "Các chương trình chuẩn: 24 đến 30 triệu đồng/năm học (tùy theo từng ngành)."
+  },
+  {
+    "question": "Chương trình Khoa học dữ liệu và Trí tuệ nhân tạo (IT-E10) có học phí khoảng bao nhiêu mỗi năm?",
+    "expected_answer": "Khoảng 60 triệu đồng/năm học.",
+    "expected_context": "riêng các chương trình Khoa học dữ liệu và Trí tuệ nhân tạo (IT-E10) và Logistics và Quản lý chuỗi cung ứng (EM-E14) có học phí khoảng 60 triệu đồng/năm học."
+  },
+  {
+    "question": "Sinh viên vay vốn ngân hàng chính sách xã hội được vay tối đa bao nhiêu?",
+    "expected_answer": "Mức vay tối đa là 4 triệu đồng/tháng x 10 tháng/năm học.",
+    "expected_context": "Mức vay tối đa: 4 triệu đồng/tháng x 10 tháng/năm học."
+  },
+  {
+    "question": "Học sinh đạt giải Nhất, Nhì kỳ thi Học sinh Giỏi Quốc gia được cấp Học bổng Tài năng trị giá bao nhiêu?",
+    "expected_answer": "Học bổng Tài năng trị giá 30 triệu đồng.",
+    "expected_context": "những học sinh đạt giải Nhất, Nhì trong Kỳ thi Học sinh Giỏi Quốc gia các môn Toán, Lý, Hóa, Sinh, CNTT, hoặc tham dự kỳ thi chọn đội tuyển Olympic Quốc tế, ngoài việc được xét tuyển thẳng vào Trường ĐHBK Hà Nội, sẽ được cấp Học bổng Tài năng trị giá 30 triệu đồng."
+  },
+  {
+    "question": "Theo Nghị định 179/2026/NĐ-CP, sinh viên các chương trình đào tạo tài năng được nhận học bổng mức bao nhiêu mỗi tháng?",
+    "expected_answer": "Mức 5.500.000 đồng/tháng.",
+    "expected_context": "Mức 5.500.000 đồng/tháng: Dành cho sinh viên các chương trình đào tạo tài năng thuộc danh mục ưu tiên."
+  },
+  {
+    "question": "Sinh viên thuộc hộ nghèo được nhà trường cấp học bổng hỗ trợ học tập bằng bao nhiêu phần trăm học phí?",
+    "expected_answer": "Học bổng toàn phần trị giá 100% học phí (so với chương trình đào tạo chuẩn).",
+    "expected_context": "Sinh viên K64 thuộc hộ nghèo (theo quy định của Nhà nước) được cấp học bổng toàn phần trị giá 100% học phí (so với chương trình đào tạo chuẩn)."
+  },
+  {
+    "question": "Điều kiện để được xét học bổng khuyến khích học tập loại A là gì?",
+    "expected_answer": "Loại A yêu cầu GPA từ 3.6 và điểm rèn luyện từ 90.",
+    "expected_context": "Loại A: GPA từ 3.6, điểm rèn luyện từ 90."
+  },
+  {
+    "question": "Quỹ học bổng dành cho học sinh có hoàn cảnh khó khăn của trường Đại học Bách khoa Hà Nội trị giá bao nhiêu?",
+    "expected_answer": "Quỹ học bổng trị giá 45 tỷ đồng.",
+    "expected_context": "cam kết tạo điều kiện cho những học sinh có hoàn cảnh khó khăn được tiếp cận giáo dục đại học, được học tập trong một trường đại học khoa học và kỹ thuật lớn nhất của cả nước thông qua quỹ học bổng 45 tỷ."
+  },
+  {
+    "question": "Sinh viên người dân tộc thiểu số rất ít người được hỗ trợ chi phí học tập như thế nào?",
+    "expected_answer": "Hỗ trợ 100% lương cơ sở x 12 tháng/năm học.",
+    "expected_context": "Hỗ trợ học tập cho sinh viên người dân tộc thiểu số rất ít người: 100% lương cơ sở x 12 tháng/năm học."
+  },
+  {
+    "question": "Điều kiện về điểm thi để được xét cấp học bổng theo Nghị định 179/2026/NĐ-CP là gì?",
+    "expected_answer": "Tổng điểm môn Toán và hai môn khác trong tổ hợp phải đạt từ 22,50 trở lên trên thang điểm 30 (không tính điểm ưu tiên), và thí sinh phải nằm trong nhóm 30% có điểm trúng tuyển cao nhất của ngành.",
+    "expected_context": "Nghị định yêu cầu tổng điểm môn Toán và hai môn khác trong tổ hợp (Vật lý, Hóa học, Sinh học, Tiếng Anh) phải đạt mức 22,50 trở lên trên thang điểm 30. Điểm số này là điểm thi thực tế, không tính các loại điểm ưu tiên theo khu vực hoặc đối tượng. Một điều kiện đi kèm là thí sinh phải nằm trong nhóm 30% những người có điểm trúng tuyển cao nhất của ngành học đó trên phạm vi toàn quốc trong năm 2026."
+  },
+  {
+    "question": "Nghị định nào của Chính phủ quy định chính sách học bổng cho người học các ngành khoa học cơ bản, kỹ thuật then chốt và công nghệ chiến lược?",
+    "expected_answer": "Nghị định 179/2026/NĐ-CP.",
+    "expected_context": "Nghị định này quy định chính sách học bổng cho người học chương trình đào tạo các ngành khoa học cơ bản, kỹ thuật then chốt và công nghệ chiến lược."
+  },
+  {
+    "question": "Nghị định 81/2021/NĐ-CP quy định về những nội dung gì?",
+    "expected_answer": "Quy định về cơ chế thu, quản lý học phí đối với cơ sở giáo dục thuộc hệ thống giáo dục quốc dân và chính sách miễn, giảm học phí, hỗ trợ chi phí học tập; giá dịch vụ trong lĩnh vực giáo dục, đào tạo.",
+    "expected_context": "Nghị định này quy định về cơ chế thu, quản lý học phí đối với cơ sở giáo dục thuộc hệ thống giáo dục quốc dân và chính sách miễn, giảm học phí, hỗ trợ chi phí học tập; giá dịch vụ trong lĩnh vực giáo dục, đào tạo."
+  },
+  {
+    "question": "Nghị định 238/2025/NĐ-CP điều chỉnh những vấn đề gì?",
+    "expected_answer": "Quy định về khung học phí, cơ chế thu, quản lý học phí, chính sách miễn, giảm, hỗ trợ học phí, hỗ trợ chi phí học tập trong cơ sở giáo dục thuộc hệ thống giáo dục quốc dân và giá dịch vụ trong lĩnh vực giáo dục, đào tạo.",
+    "expected_context": "Nghị định này quy định về khung học phí, cơ chế thu, quản lý học phí, chính sách miễn, giảm, hỗ trợ học phí, hỗ trợ chi phí học tập trong cơ sở giáo dục thuộc hệ thống giáo dục quốc dân và giá dịch vụ trong lĩnh vực giáo dục, đảo tạo."
+  },
+  {
+    "question": "Để duy trì học bổng theo Nghị định 179/2026/NĐ-CP, sinh viên phải tích lũy tối thiểu bao nhiêu tín chỉ sau năm học đầu tiên?",
+    "expected_answer": "Tối thiểu 24 tín chỉ sau năm đầu; các năm tiếp theo yêu cầu tăng lên 28 tín chỉ mỗi năm.",
+    "expected_context": "Sau năm học đầu tiên, sinh viên cần tích lũy tối thiểu 24 tín chỉ. Các năm tiếp theo, yêu cầu này tăng lên mức 28 tín chỉ cho mỗi năm học."
+  },
+  {
+    "question": "Dự kiến mỗi năm có bao nhiêu người học được cấp học bổng Chính phủ theo Nghị định 179 và tổng kinh phí là bao nhiêu?",
+    "expected_answer": "Dự kiến 30.000 người học được cấp học bổng mỗi năm, tổng kinh phí 1.300 tỷ đồng.",
+    "expected_context": "Dự kiến 30.000 người học sẽ được cấp học bổng Chính phủ mỗi năm theo Nghị định 179/2026/NĐ-CP, tổng kinh phí 1.300 tỷ đồng."
+  }
+]
