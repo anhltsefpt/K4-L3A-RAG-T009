@@ -33,9 +33,17 @@
 - Kết quả A/B: Config B (hybrid+RRF) > Config A (dense) ở cả 4 metric; recall +0.20, faithfulness +0.068.
 - Lỗi phát hiện: (a) `reorder_for_llm` xáo thứ tự Document làm lệch citation → case #8 faithfulness=0; (b) số hiệu nghị định nằm ở header bị tách chunk → case #11 context_recall=0. Đã ghi root cause + recommendation vào `RESULT.md`.
 
+**Ảnh demo (Streamlit UI):**
+
+![Demo in-domain — Học phí 2022: answer kèm panel nguồn (retrieval hybrid)](screenshot/demo-indomain-hocphi.png)
+
+![Demo hybrid — phân biệt đúng Nghị định 179/2026 giữa 3 nghị định cùng chủ đề](screenshot/demo-hybrid-nghidinh179.png)
+
+*(Ảnh demo out-of-domain / safe refusal: sẽ bổ sung.)*
+
 ## Điều còn hạn chế
 
-- Citation dùng số "Document N" không ổn định sau `reorder_for_llm`, làm faithfulness một số case bị đánh giá thấp dù answer đúng.
+- Citation dùng số "Document N" không ổn định sau `reorder_for_llm`, làm faithfulness một số case bị đánh giá thấp dù answer đúng (thấy rõ ở ảnh demo in-domain: answer cite "Document 5" trong khi con số nằm ở nguồn khác).
 - Nếu có thêm thời gian: đánh nhãn citation theo `source/title` (hoặc gán số trước reorder), và prepend số hiệu nghị định vào mỗi chunk khi index để cải thiện context recall.
 
 ## Xác nhận đóng góp
