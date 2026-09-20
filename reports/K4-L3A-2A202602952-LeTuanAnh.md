@@ -39,7 +39,7 @@
 
 ![Demo hybrid — phân biệt đúng Nghị định 179/2026 giữa 3 nghị định cùng chủ đề](screenshot/demo-hybrid-nghidinh179.png)
 
-*(Ảnh demo out-of-domain / safe refusal: sẽ bổ sung.)*
+![Demo out-of-domain — câu ngoài chủ đề trả về safe refusal](screenshot/demo-out-domain.png)
 
 ## Điều còn hạn chế
 
